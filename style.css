@@ -1,0 +1,33 @@
+body {
+   background-color: #333;
+   color: #fff;
+   font-family: arial;
+}
+
+ul {
+   box-shadow: inset 0 0 2px #777, 0 0 2px #777;
+   padding: 0;
+   list-style: none;
+   border-radius: 3px;
+}
+
+li {
+   cursor: pointer;
+   text-transform: uppercase;
+   padding: 10px 25px;
+   border-radius: 3px;
+}
+
+.disabled {
+   opacity: 0.25;
+   transition: 0.15s;
+}
+
+.disabled:hover {
+   opacity: 0.5;
+}
+
+.enabled {
+   opacity: 1;
+   text-shadow: 0 0 1px #fff;
+}
