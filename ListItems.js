@@ -6,6 +6,7 @@ const ListItems = props => {
             id={item.id}
             name={item.name}
             active={item.active}
+            price={item.price}
             changeStatus={props.changeStatus}
          />
       )

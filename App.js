@@ -3,8 +3,8 @@ class App extends React.Component {
    state = {
       items: [
          { id: 1, name: 'pizza', price: 13, active: false },
-         { id: 2, name: 'tea', price: 2.60, active: true },
-         { id: 3, name: 'big-mac', price: 5.25, active: true },
+         { id: 2, name: 'tea', price: 2.60, active: false },
+         { id: 3, name: 'big-mac', price: 5.25, active: false },
          { id: 4, name: 'coffee', price: 3.10, active: false },
          { id: 5, name: 'milkshake', price: 1.90, active: false },
          { id: 6, name: 'sprite', price: 1.50, active: false },
