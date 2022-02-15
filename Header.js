@@ -7,8 +7,7 @@ const Header = props => {
    return (
       <>
          <h2>Order summary: {number}</h2>
-         <h2></h2>
-         <h2>Total to pay: {summary ? `€ ${summary.toFixed(2)}` : "You don't buy you don't pay"}</h2>
+         <h2>Total to pay: {summary ? `€ ${summary.toFixed(2)}` : "You don't buy you don't pay =D"}</h2>
       </>
    )
 }
